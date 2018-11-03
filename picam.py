@@ -44,7 +44,7 @@ def handle(msg):
 		elif command == '/guanbi':
 			pass			
 	else:
-		bot.sendMessage(xxxxxxx, chat_id) # if the user id is not in the library, send the user id to the administrator, replace xxxxx with main user id
+		bot.sendMessage(id_lib[0], chat_id) # if the user id is not in the library, send the user id to the administrator, replace xxxxx with main user id
 
 bot = telepot.Bot('xxxxxxxxxxxxxx') # create a bot for the telegram, replace the string xxxxxxxx in bracket with bot id
 bot.message_loop(handle)
