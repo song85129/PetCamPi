@@ -22,8 +22,8 @@ Telepot is a telegram bot. Here is the steps on how to use it:
 2. Get a bot account, text him **/newbot**, answer his questions.
 3. At the end of the process, a token will be given, this token represents the bot account, keep it safe.
 4. Install Telepot on Raspberry pi
-    sudo apt-get install python-pip
-    sudo pip install telepot
+    'sudo apt-get install python-pip'
+    'sudo pip install telepot'
 5. Text BotFather **/setcommands** to set the comment shown above
 
 ### 2. gpac
@@ -31,8 +31,8 @@ Telepot is a telegram bot. Here is the steps on how to use it:
 Telegram bot has a limit on the maximum size of the video file it can send. I tried with different sizes and it turned out that if the file is too big, bot will send the file but when I open it on my phone, it just shows black images in the video.
 Also I need to convert the raw video h264 to mp4 for telepot to send the video file. So gpac is used to convert the video.
 To install it
-    sudo apt-get update
-    sudo apt-get install gpac 
+    'sudo apt-get update'
+    'sudo apt-get install gpac' 
 After several test and trials, I found the current setting is at the limit.
 
 Please feel free to play the setting and let me know if you have different idea.
